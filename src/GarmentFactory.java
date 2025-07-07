@@ -5,5 +5,5 @@ public interface GarmentFactory {
     Pants createPant();
     Shoes createShoes();
 
-    public String toString();
+    String toString();
 }

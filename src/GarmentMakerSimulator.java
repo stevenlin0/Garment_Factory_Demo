@@ -10,9 +10,9 @@ public class GarmentMakerSimulator {
     // in producing its own products
     public static void simulate(GarmentFactory factory) {
         System.out.println("Garments for " + factory.toString() + ":");
-        System.out.println("- " + factory.createTop().getDescription());
-        System.out.println("- " + factory.createPant().getDescription());
-        System.out.println("- " + factory.createShoes().getDescription());
+        System.out.println("- " + factory.createTop().getDescription());  //create top
+        System.out.println("- " + factory.createPant().getDescription());  //create pant
+        System.out.println("- " + factory.createShoes().getDescription());  //create shoes
         System.out.println();
     }
 }

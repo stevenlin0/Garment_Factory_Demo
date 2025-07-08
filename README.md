@@ -1,1 +1,0 @@
-### This Java project simulates themed garment sets—tops, pants, and shoes—using the Abstract Factory design pattern. It ensures only matching items (e.g., Professional, Casual, Party) are grouped together. The design supports easy extension without modifying existing code.
